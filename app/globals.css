@@ -22,6 +22,14 @@ body {
   background: var(--cream);
   color: var(--forest);
   font-family: Arial, Helvetica, sans-serif;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+body.night-mode {
+  background: #071b0b;
+  color: #f4eedb;
 }
 
 a {

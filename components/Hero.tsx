@@ -17,7 +17,18 @@ export default function Hero() {
 
       {/* subtle background glow */}
       <div className="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#2C8E33]/10 blur-[120px]" />
+      <div
+  className="absolute inset-0 bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/images/day-cafe.jpg')",
+  }}
+/>
 
+{/* Dark green overlay */}
+<div className="absolute inset-0 bg-[#031b0c]/80" />
+
+{/* Subtle bottom fade */}
+<div className="absolute inset-0 bg-gradient-to-b from-[#031b0c]/30 via-transparent to-[#031b0c]/90" />
       {/* Main content */}
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-24">
 
